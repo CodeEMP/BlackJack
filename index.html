@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Todo List Exercise</title>
+    <script src="jquery.js"></script>
+    <script src="blackjack.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="modal" id="playagain">
+      <h2 class="modal-header">Play again?</h2>
+      <button>Yes</button>
+      <button>No</button>
+    </div>
+    <div id="table">
+      <div id="messages"></div>
+        <div class="label-box">
+          <label>Dealer: </label>
+          <label id="dealer-points" class="points"></label>
+          <label class="wins">Wins:</label>
+          <label id="dealer-wins"class="wins"></label>
+        </div>
+      <div id="dealer-hand" class="hand">
+      </div>
+        <div class="label-box">
+          <label>Player: </label>
+          <label id="player-points" class="points"></label>
+          <label class="wins">Wins:</label>
+          <label id="player-wins"class="wins"></label>
+        </div>
+        <div id="player-hand" class="hand">
+        </div>
+        <div class="buttons">
+            <button id="deal-button">Deal</button>
+            <button id="hit-button">Hit</button>
+            <button id="stand-button">Stand</button>
+        </div>
+    </div>
+  </body>
